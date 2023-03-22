@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    font-family:Helvetica,sans-serif;
+    /* outline: 1px solid blue; */
+}
+.body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(179, 101, 101);
+}
+.top{
+    position: fixed;
+    width: 100%;
+    height: 5px;
+    background-color: #ffd400;
+}
+.nav-btns,.nav-btns1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+section{
+    color: #b1a8a8;
+}
+.top-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 5px;
+}
+.nav-bar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color: #0f0f0f;
+}
+.logo{
+    height: 100%;
+    padding-left: 50px;
+}
+.nav-btns{
+    padding-left: 100px;
+}
+.nav-btns1{
+    padding-left: 650px;
+}
+nav button{
+    cursor: pointer;
+    justify-content: center;
+    font-size: 15px;
+    display: flex;
+    border: black;
+    background-color: black;
+    color: #fff;
+}
+/* page 1 */
+.page-1{
+    padding-top: 80px;
+    width: 100%;
+    height: 632px;
+    background: url(images/POCO-F4-GT-Banner-en\ \(1\).jpg);
+}
+.page-1-buttons{
+    padding-left: 15%;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.page-1-buttons button{
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    background: rgba(0,0,0,0);
+    color: #fff;
+}
+.page-1-buttons button:hover{
+    color: #ffd400;
+}
+.page-1-button{
+    position: relative;
+    height: 50px;
+    width: 200px;
+    top: 375px;
+    left: 205px;
+}
+.page-1-button button{
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    background: none;
+    border: none;
+}
+/* page 2 */
+.page-2{
+    background-color: black;
+    color: #fff;
+    height: 840px;
+}
+.page-2 h1{
+    padding-left: 45%;
+}
+.page-2-1,.page-2-2,.pa3{
+    padding: 2.5%;
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.page-2-2 img,.page-2-1 img{
+    width: 100%;
+    height: 100%;
+}
+/* page 3 */
+.page-3{
+    color: #fff;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 10px;
+    background-color:#353434;
+}
+.input{
+    box-sizing: border-box;
+}
+.input input{
+    width: 230px;
+    height: 30px;
+    outline: #b1a8a8;
+    color: #b1a8a8;
+    background: rgba(0,0,0,0);
+}
+.p3img,.tab4 img{
+    width: 3%;
+    height: 17%;
+}
+.p3img img{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+/* page 4 */
+.page-4{
+    width: 100%;
+    background-color: #000000;
+    font-size: 15px;
+    height: 400px;
+}
+.tab4{
+    padding-left: 10%;
+    width: 90%;
+}
+.tab4 table{
+    border-spacing: 30px;
+}
+.tab4 th,.tab4 b{
+    color: #fff;
+}
+.tab4 td{
+    color: #979494;
+    cursor: pointer;
+}
+.tab4 td:hover{
+    color: #fff;
+}
+.tab4 img{
+    border-radius: 50%;
+}
+.tab4 b{
+    position: relative;
+    top: 50px;
+    left: 430px;
+}
+/* footer */
+.hr{
+    background-color: #000000;
+    padding-left: 5%;
+}
+hr{
+    width: 90%;
+    color: #b1a8a8;
+}
+.footer{
+    background-color: #000000;
+    padding-top: 40px;
+    width: 100%;
+    height: 60px;
+    color: #979494;
+}
